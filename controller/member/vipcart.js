@@ -4,7 +4,7 @@ class VipCart {
 	constructor(props) {
 
 	}
-	async useCart(req, res, next){
+	async useCart(req, res, next) {
 		res.send({
 			status: 0,
 			type: 'INVALID_CART',
